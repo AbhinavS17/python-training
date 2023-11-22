@@ -38,3 +38,13 @@ class Person:
 
 p2 = Person("Abhinav", 40)
 print(p2.name)
+
+
+class Greet:
+    def __init__(self, name1, age1):
+        self.name = name1
+        self.age = age1
+
+    def myfunc(self):
+        print("Hello, My name is: ", self.name)
+        print("Hello, My age is: ", self.age)
