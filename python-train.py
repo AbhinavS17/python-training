@@ -20,3 +20,21 @@ print(func(5))
 
 add_num = lambda a,b,c : a + b + c
 print(add_num(5,6,7))
+
+
+#create classes
+
+class MyClass:
+    num = 5
+
+
+print(MyClass.num)
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p2 = Person("Abhinav", 40)
+print(p2.name)
