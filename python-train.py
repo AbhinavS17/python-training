@@ -48,3 +48,5 @@ class Greet:
     def myfunc(self):
         print("Hello, My name is: ", self.name)
         print("Hello, My age is: ", self.age)
+
+person2 = Person("Bob", 36)
