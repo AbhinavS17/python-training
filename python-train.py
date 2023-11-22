@@ -15,3 +15,8 @@ for x in fruits:
 
 ### lamba functions
 
+func = lambda a:a+10
+print(func(5))
+
+add_num = lambda a,b,c : a + b + c
+print(add_num(5,6,7))
